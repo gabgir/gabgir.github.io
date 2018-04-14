@@ -36,6 +36,6 @@ git clone --recursive https://github.com/<yourUserName>/dotfiles.git
 
 The recursive flag ensures that if your dotfiles contain git repository, which is often the case with vim plugins, they are also downloaded.
 
-After that, you run the `ln -s` commands again to create the symbolic links or your new machine. A good way to remember those commands is to add them to the repo readme file or even to create an install bash script with those commands.
+After that, you run the `ln -s` commands again to create the symbolic links on your new machine. A good way to remember those commands is to add them to the repo readme file or even to create an install bash script with those commands.
 
 Another cool trick when using git to manage your dotfiles is that you can create multiple branches to support different configurations. For example, you might have a branch called `red-hat` to save a version of your dotfiles tailored for red hat linux. 
